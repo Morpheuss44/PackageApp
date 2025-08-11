@@ -1,0 +1,25 @@
+{
+  "id": "6b61286b-55e2-4c4e-9e24-ae979c270212",
+  "name": "PackageApp",
+  "publisher": "OT Test",
+  "version": "1.0.0.1",
+  "brief": "PackageApp",
+  "description": "PackageApp",
+  "dependencies": [
+  ],
+  "screenshots": [],
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "features": [],
+  "idRanges": [
+    {
+      "from": 52251,
+      "to": 52300
+    }
+  ],
+  "source": {
+    "repositoryUrl": "https://github.com/Morpheuss44/PackageApp.git"
+  },
+  "resourceFolders": ["resources"],
+  "runtime": "15.0"
+}
