@@ -1,0 +1,23 @@
+{
+  "al.enableCodeAnalysis": false,
+  "al.enableCodeActions": true,
+  "al.backgroundCodeAnalysis": false,
+  "al.codeAnalyzers": [
+    "${CodeCop}",
+    "${AppSourceCop}",
+    "${UICop}"
+  ],
+  "al.areProfileLensesSupported": true,
+  "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.OnSaveAlFileAction": "Rename",
+  "editor.formatOnSave": true,
+  "alOutline.codeActionsOnSave": [
+    "SortVariables",
+    "SortProperties"
+  ],
+  "search.exclude": {
+    "**/.alcache": true
+  }
+}
